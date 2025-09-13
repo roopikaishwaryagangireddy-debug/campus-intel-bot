@@ -22,10 +22,18 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          hover: "hsl(var(--primary-hover))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+          hover: "hsl(var(--secondary-hover))",
+        },
+        campus: {
+          blue: "hsl(var(--campus-blue))",
+          green: "hsl(var(--campus-green))",
+          "light-blue": "hsl(var(--campus-light-blue))",
+          dark: "hsl(var(--campus-dark))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
